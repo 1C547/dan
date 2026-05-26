@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海南儋州</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/儋州文字.png" />
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">海南儋州</a></li>
+                <li><a href="qiangu.html">千古盐田</a></li>
+                <li><a href="food.html">美食打卡</a></li>
+                <li><a href="travel.html">旅游攻略</a></li>
+                <li><a href="culture.html">风土人情</a></li>
+            </ul>
+            <a href="auth.html" class="login-btn">登录/注册</a>
+        </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide active">
+                <img src="images/景点/轮播1.jpg" />
+                <div class="carousel-overlay">
+                    <div class="carousel-title">
+                        <img src="images/儋州1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/景点/轮播2.jpg" />
+                <div class="carousel-overlay">
+                    <div class="carousel-title">
+                        <img src="images/儋州1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/景点/轮播3.jpg" />
+                <div class="carousel-overlay">
+                    <div class="carousel-title">
+                        <img src="images/儋州1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/景点/轮播4.jpg" />
+                <div class="carousel-overlay">
+                    <div class="carousel-title">
+                        <img src="images/儋州1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/景点/轮播5.jpg" />
+                <div class="carousel-overlay">
+                    <div class="carousel-title">
+                        <img src="images/儋州1.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/景点/轮播6.jpg" />
+                <div class="carousel-overlay">
+                    <div class="carousel-title">
+                        <img src="images/儋州1.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 轮播图指示点 -->
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+            <span class="indicator" data-slide="4"></span>
+            <span class="indicator" data-slide="5"></span>
+        </div>
+        
+        <!-- 左右切换按钮 -->
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+        <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+    </div>
+
+    <!-- 三栏内容区域 -->
+    <div class="three-column-content">
+        <!-- 左侧大图 -->
+        <div class="left-image-section">
+            <img src="images/景点/海花岛.jpg" / alt="海花岛">
+        </div>
+
+        <!-- 中间旅游资讯 -->
+        <div class="middle-content-section">
+            <div class="section-header">
+                <h2>旅游资讯</h2>
+                <a href="#" class="more-link">了解更多>></a>
+            </div>
+            <div class="content-with-image">
+                <div class="main-article">
+                    <img src="images/景点/苏东坡.jpg"  alt="苏东坡"/>
+                </div>
+                <ul class="article-list">
+                    <li><a href="#">东坡故里，探寻儋州古城的历史印记与文化遗产</a><span class="date">2026-05-21</span></li>
+                    <li><a href="#">松涛天湖，领略儋州高原明珠的自然风光与壮丽风光</a><span class="date">2026-05-21</span></li>
+                    <li><a href="#">美食之旅，品味儋州小吃的地道味道与独特的美食文化</a><span class="date"2026-05-22</span></li>
+                    <li><a href="#">海湾畅游，漫步海岸线感受儋州诗意人文的湖光山色</a><span class="date">2026-05-23</span></li>
+                    <li><a href="#">儋州风情，欣赏儋州传统建筑和服饰的艺术魅力</a><span class="date">2026-05-24</span></li>
+                    <li><a href="#">千年古盐田游，感受儋州古老制盐文化的韵味</a><span class="date">2026-05-21</span></li>
+                    <li><a href="#">大儋州民俗体验，融入调声文化感受地道风土人情</a><span class="date">2026-05-25</span></li>
+                </ul>
+            </div>
+        </div>
+
+     
+    </div>
+       <!-- 右侧双栏 -->
+       <div class="right-content-section">
+        <!-- 相关简介 -->
+        <div class="intro-section">
+            <div class="section-header">
+                <h2>相关简介</h2>
+                <a href="#" class="more-link">了解更多></a>
+            </div>
+            <div class="intro-text">
+                <p>儋州是中国海南省的一个地级市，全称为儋州市，位于海南岛西北部，是海南西部地区的政治、经济、文化和交通中心。以下是对儋州的详细介绍：</p>
+                <p>地理位置：儋州地处海南岛西北部，坐落在北部湾畔，东临临高，南接白沙、昌江，西濒北部湾，北与广西隔海相望，是海南省海岸线最长的城市之一。<br />
+历史文化：儋州历史悠久，古称 “儋耳”，是古代 “海上丝绸之路” 的重要节点；北宋大文豪苏东坡曾谪居儋州三年，留下东坡书院等珍贵文化遗迹，素有 “诗乡歌海” 的美誉，儋州调声更是国家级非物质文化遗产。</p>
+            </div>
+        </div>
+        <!-- 游玩攻略 -->
+        <div class="strategy-section">
+            <div class="section-header">
+                <h2>游玩攻略</h2>
+                <a href="#" class="more-link">了解更多>></a>
+            </div>
+            <div class="strategy-content">
+                <div class="strategy-image">
+                    <img src="images/景点/千盐古盐田.jpg" />
+                </div>
+                <ul class="article-list">
+                    <li><a href="#">东坡书院隐藏的终极宝地，儋州峨蔓火山海岸</a><span class="date">2026-05-21</span></li>
+                    <li><a href="#">去儋州旅行必备，交通 & 住宿 & 特色伴手礼全攻略</a><span class="date">2026-05-21</span></li>
+                    <li><a href="#">儋州自行车旅游攻略，儋州最经典的海岸观光线路</a><span class="date">2026-05-22</span></li>
+                    <li><a href="#">儋州深度攻略，和朋友看白色盐田！绝美游玩路线</a><span class="date">2026-05-23</span></li>
+                    <li><a href="#">东坡书院里隐藏的终极宝地，儋州千年古盐田</a><span class="date">2026-05-24</span></li>
+                    <li><a href="#">秀丽典雅的儋州，不仅有山海风光的美好还有等你，住宿指南</a><span class="date">2026-05-21</span></li>
+                    <li><a href="#">避坑攻略，或许不大，却承载了千年历史 “追寻去儋州”</a><span class="date">2026-05-25</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 游客照分享 -->
+    <div class="gallery-section">
+        <div class="section-header">
+            <h2>游客照分享</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/景点/中国村.jpg" alt="海花岛"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/景点/海花岛1.jpg"  alt="海花岛1"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/景点/神冲村.jpg"  alt="神冲村">
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+         © 陈欣菲
+    </footer>
+
+    <script src="./js/carousel.js"></script>
+</body>
+</html>
